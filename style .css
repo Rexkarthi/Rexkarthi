@@ -1,0 +1,83 @@
+{
+            font-family: 'merlin', sans-serif;
+            margin: 0;
+            padding: 100px;
+            background-image: url('10707956.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-image:url('royal.jpg') ;
+            color: cyan;
+            text-align: center;
+            padding: 10.10mm;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        img {
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            object-fit: cover;
+            position: absolute;
+            top: 40px;
+            left: 75px;
+        }
+
+        nav {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: italic;
+            padding: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .section-content {
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-image:url('pngtree-geo.jpg') ;
+        }
+
+        .download-button:hover {
+            background-color: blue;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .section-content dl {
+            text-align: left;
+        }
+
+        .section-content dl dt {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .section-content dl dd {
+            margin-left: 1rem;
+        }
